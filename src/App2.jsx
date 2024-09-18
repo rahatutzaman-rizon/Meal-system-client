@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import {  FaCalendarAlt } from 'react-icons/fa';
 import {  MdAttachMoney } from 'react-icons/md';
-import DataTables from './Datatables';
 
 export default function App2() {
   const [mealData, setMealData] = useState({ names: [], dates: [], meals: [] });
